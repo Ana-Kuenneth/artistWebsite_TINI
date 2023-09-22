@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--Link icono tini-->
+    <link rel="shortcut icon" href="http://www.tinistoessel.com.mx/sites/default/files/favicon-96x96.png"
+        type="image/png">
+
+    <!--Link Bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+
+    <!--Link Fonts-->
+    <!--1-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Homemade+Apple&display=swap" rel="stylesheet">
+    <!--2-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@1,700&display=swap" rel="stylesheet">
+    <!--3-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@1,700&display=swap" rel="stylesheet">
+    <!-- 4 -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet">
+    <!-- Links CSS -->
+    <link rel="stylesheet" href="./CSS/stylediscografia.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css">
+    <title>TINI Stoessel Oficial | Discografía</title>
+</head>
+
+<body class="d-block">
+
+    <!--Sección navbar-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-white text-dark pt-1 position-sticky top-0 nav">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <a class="navbar-brand" href="./index.html"><img src="./img/index/tini_logo_blanco.png" class="h-40 ps-3" alt="logo"></a>
+
+        <div class="collapse navbar-collapse justify-content-end " id="navbarNav">
+            <ul class="navbar-nav justify-content-end">
+                <li class="nav-item active rosita">
+                    <a class="nav-link fw-bold" href="./index.html">Inicio</a>
+                </li>
+                <li class="nav-item rosita">
+                    <a class="nav-link fw-bold" href="./biografia.html">Biografía</a>
+                </li>
+                <li class="nav-item rosita">
+                    <a class="nav-link fw-bold" href="./discografia.html">Discografía</a>
+                </li>
+                <li class="nav-item rosita">
+                    <a class="nav-link fw-bold" href="./conciertos.html">Conciertos</a>
+                </li>
+                <li class="nav-item rosita">
+                    <a class="nav-link fw-bold" href="./contacto.html">Contacto</a>
+                </li>
+
+                <!-- Button trigger modal -->
+                <button type="button" class="btn btn-dark rosita" data-bs-toggle="modal"
+                    data-bs-target="#exampleModal">Log
+                    in</button>
+                <li class="nav-item">
+                    <a class="nav-link disabled fw-bold" href="#" tabindex="-1" aria-disabled="true"></a>
+                </li>
+            </ul>
+        </div>
+
+    </nav>
+
+    <!--Sección Imagen Principal-->
+    <section>
+        <div class="imagen-fondo ">
+            <h1 class="titulo-inicio">Tini Stoessel</h1>
+            <h2 class="titulo-inicio">DISCOGRAFIA</h2>
+        </div>
+    </section>
+
+
+    <!--Sección albumes-->
+
+    <section class="mt-4 contenedor d-flex flex-column">
+        <div class="encabezado">
+            <h1 class="">Álbumes</h1>
+        </div>
+        <div class="mb-5 d-flex justify-content-around">
+            <div class="px-5">
+                <a href="./albumTx3.html"><img class="portada imgAnimacion" src="./img/discography/TINI_TINI_TINI.jpg"
+                        alt=""></a>
+            </div>
+
+            <div class="px-5">
+                <a href="./albumQV.html"><img class="portada imgAnimacion"
+                        src="./img/discography/tini_quiero_volver-portada.jpg" alt=""></a>
+            </div>
+
+            <div class="px-5">
+                <a href="albumTini.html"><img class="portada imgAnimacion"
+                        src="./img/discography/tini_martina_stoessel-portada.jpg" alt=""></a>
+            </div>
+        </div>
+    </section>
+
+    <!--Sección videos musicales-->
+
+    <section class="">
+        <div class="contenedor d-flex flex-column">
+            <div class="encabezado pt-2">
+                <h1 class="">Videos musicales</h1>
+            </div>
+            <div class="mb-5 d-flex justify-content-around">
+                <div id="carouselExampleIndicators" class="carousel slide h-3" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                    </ol>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <iframe width="560" height="315" src=""
+                                allowfullscreen></iframe>
+                        </div>
+                        <div class="carousel-item">
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/wICMDTmLsHw?start=3"
+                                title="YouTube video player" frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                allowfullscreen></iframe>
+                        </div>
+                        <div class="carousel-item">
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/hC8gC5fRIEQ?start=1"
+                                title="YouTube video player" frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                allowfullscreen></iframe>
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+<!--Seccion Footer--> 
+
+<footer>
+  <div class="footer-container">
+    <div class="left-col">
+      <img src="./img/index/tini_logo_final.png" alt="" class="logo">
+      <div class="social-media">
+
+
+        <a href="https://twitter.com/TiniStoessel" target="_blank"><i class="fab fa-twitter-square"></i></a></li>
+        <a href="https://www.instagram.com/tinistoessel/" target="_blank"><i class="fab fa-instagram"></i></a></li>
+        <a href="https://www.youtube.com/c/tinistoessel" target="_blank"><i class="fab fa-youtube"></i></a></li>
+        <a href="https://open.spotify.com/artist/7vXDAI8JwjW531ouMGbfcp?si=RRZrdV0kQamUu6qY2Pg3ig&dl_branch=1"
+          target="_blank"><i class="fab fa-spotify"></i></a></li>
+        <a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook"></i></a></li>
+
+      </div>
+
+    </div>
+    <div class="links-pagina">
+
+      <ul>
+
+        <li class="links"><a href="./index.html">Inicio</a></li>
+        <li class="links"><a href="./biografia.html">Biografía</a></li>
+        <li class="links"><a href="./discografia.html">Discografía</a></li>
+
+      </ul>
+    </div>
+
+    <ul>
+
+      <li class="links2"><a href="./conciertos.html">Conciertos</a></li>
+      <li class="links2"><a href="./contacto.html">Contacto</a></li>
+          <li class="links2" data-bs-toggle="modal" data-bs-target="#exampleModal"><a href=""></a>Log In</a></li>
+
+
+    </ul>
+
+
+    <div class="right-col">
+      <h3>Subscríbete para nuevas noticias</h3>
+      <form action="" class="newsletter-form">
+        <input type="text" class="txtb" placeholder="Ingrese su e-mail">
+        <input type="submit" class="btn" value="Enviar">
+      </form>
+    </div>
+
+  </div>
+
+</footer>
+
+    <!-- Modal -->
+    <div class="modal fade fondo-modal" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Iniciar Sesion</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+    
+              <!-- Iniciar sesion -->
+              <form>
+                <div class="mb-3">
+                  <label for="exampleInputEmail1" class="form-label">Correo electrónico - Email</label>
+                  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                  <div id="emailHelp" class="form-text">La dirección de correo es personal.</div>
+                </div>
+                <div class="mb-3">
+                  <label for="exampleInputPassword1" class="form-label">Contraseña</label>
+                  <input type="password" class="form-control" id="exampleInputPassword1">
+                  <div id="emailHelp" class="form-text">No compartas tu contraseña con nadie más.</div>
+    
+                </div>
+                <div class="mb-3 form-check">
+                  <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                  <label class="form-check-label" for="exampleCheck1">Recordarme</label>
+                </div>
+                <button type="submit" class="btn btn-dark rosita">Acceder</button>
+              </form>
+            </div>
+            <div class="d-flex align-items-center"> <!--modal-foter-->
+              <div  class="me-auto p-4">
+                <a style="color: rgb(214, 144, 156);" href="registrarme.html">Registrarme</a>
+              </div>
+              
+              <div class="p-2">
+                <button type="button" class="btn btn-dark rosita" >Acceder</button>
+                <button type="button" class="btn btn-secondary rosita" data-bs-dismiss="modal">Cerrar</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
